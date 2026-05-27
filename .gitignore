@@ -4,10 +4,24 @@ __MACOSX/
 
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
 
 # Jupyter
 .ipynb_checkpoints/
 
 # Environment files
 .env
+.flaskenv
+
+# Generated outputs
+outputs/figures/*.png
+outputs/figures/*.jpg
+outputs/metrics/*.json
+outputs/metrics/*.csv
+
+# Local expanded data
+data/raw/*.csv
+data/processed/

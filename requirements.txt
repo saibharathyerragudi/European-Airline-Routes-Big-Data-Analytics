@@ -1,0 +1,7 @@
+# Local validation utilities use the Python standard library.
+# Databricks notebooks require Spark/Databricks runtime packages in Databricks.
+pyspark>=3.5
+pandas>=2.2
+matplotlib>=3.8
+seaborn>=0.13
+scikit-learn>=1.4

@@ -1,0 +1,46 @@
+RAW_ZIP_PATH = "data/raw/europe_air_routes.zip"
+RAW_CSV_NAME = "europe_air_routes.csv"
+
+CORE_COLUMNS = [
+    "id",
+    "iata_from",
+    "iata_to",
+    "price",
+    "day1",
+    "day2",
+    "day3",
+    "day4",
+    "day5",
+    "day6",
+    "day7",
+    "flights_per_day",
+    "common_duration",
+    "flights_per_week",
+    "first_flight",
+    "last_flight",
+    "airlineroutes",
+    "arrival_airport_country_code",
+    "arrival_airport_name",
+    "arrival_airport_city_name",
+    "arrival_airport_city_name_en",
+    "arrival_airport_country",
+    "arrival_airport_no_routes",
+    "departure_city",
+    "departure_country",
+    "departure_ICAO",
+    "departure_latitude",
+    "departure_longitude",
+    "departure_altitude",
+    "arrival_ICAO",
+    "arrival_latitude",
+    "arrival_longitude",
+    "arrival_altitude",
+]
+
+ENGINEERED_COLUMNS = [
+    "days_operated",
+    "is_daily_route",
+    "flights_per_day_numeric",
+    "distance_km",
+    "price_per_km",
+]
